@@ -24,4 +24,15 @@ int main(){
     cin >> nilBI;
     cout <<"Masukkan nilai Matematika = ";
     cin >> nilMT;
+
+    //rerata = (nilBI+nilMT)/;
+    //IF (rerata >= 60)
+    //    status = "Lolos";
+    //else
+      //  status = "Gagal";
+    rerata = Rata_rata(nilBI,nilMT);
+    //status = Status_lulus(rerata);
+    
+    cout << "Status kelulusan = "<<Status_lulus(rerata)<<" ,dengan  nilai rerata = "<<rerata<<endl;
+    
 }
